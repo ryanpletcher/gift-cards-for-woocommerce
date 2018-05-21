@@ -1,0 +1,113 @@
+.misc-pub-cardnumber{
+	display: none;
+}
+
+#giftcard_regenerate,
+#giftcard_usage {
+	min-height: 50px !important;
+}
+
+
+a.button.tips.cancel,
+a.button.tips.regen,
+a.button.tips.resend,
+a.button.tips.decrease {
+  display: block;
+    text-indent: -9999px;
+    position: relative;
+    margin-bottom: 0.2rem;
+    margin-right: 0.2rem;
+    float: left;
+    height: 1em;
+    width: 1em;
+    padding: 0!important;
+    height: 2em!important;
+    width: 2em;
+}
+
+.kodiak_giftcard_balance {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+
+
+.tips.cancel::after {
+    font-family: WooCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\e013";
+    line-height: 1.85;
+}
+
+.regen::after {
+    font-family: WooCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\e031";
+    line-height: 1.85;
+}
+
+.resend::after{
+    font-family: WooCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\e008";
+    line-height: 1.85;
+}
+
+.decrease::after  {
+    font-family: WooCommerce;
+    speak: none;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    content: "\e00a";
+    line-height: 1.85;
+}
