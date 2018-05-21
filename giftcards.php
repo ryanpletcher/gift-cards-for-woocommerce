@@ -5,7 +5,7 @@
  * Description: WooCommerce - Gift Cards allows you to offer gift cards to your customer and allow them to place orders using them.
  * Author: WP Ronin
  * Author URI: http://wp-ronin.com
- * Version: 2.6.3
+ * Version: 2.6.4
  * License: GPL2
  * WC requires at least: 3.0.0
  * WC tested up to: 3.3.5
@@ -72,7 +72,7 @@ if( !class_exists( 'KODIAK_GIFTCARDS' ) ) {
          */
         private function setup_constants() {
 
-            define( 'WPKODIAK_VERSION',     '2.6.3' ); // Plugin version
+            define( 'WPKODIAK_VERSION',     '2.6.4' ); // Plugin version
             define( 'WPKODIAK_DIR',             plugin_dir_path( __FILE__ ) ); // Plugin Folder Path
             define( 'WPKODIAK_URL',             plugins_url( 'gift-cards-for-woocommerce', 'giftcards.php' ) ); // Plugin Folder URL
             define( 'WPKODIAK_FILE',            plugin_basename( __FILE__ )  ); // Plugin Root File

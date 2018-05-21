@@ -2,8 +2,8 @@
 Contributors: rpletcher
 Tags: woocommerce, gift, gift card, payment, gift certificate, certificate
 Requires at least: 3.0
-Tested up to: 4.9.5
-Stable tag: 2.6.2
+Tested up to: 4.9.6
+Stable tag: 2.6.4
 Donate link: https://ryanpletcher.com/donate/
 License: GPLv2 or later
 
@@ -50,12 +50,8 @@ A: Add a better search option in the admin to search for Gift cards. More quick 
 * FIX: Updated experation date on email to display in same format as the website
 * FIX: Remove extra slashes being added to the text field
 * FIX: Updated footer text with additional settings
-
 * ADD: Ability to choose if gift card is sent on creation
 * ADD: Added the ability to use email tags in subject and other fields in the email
-
-
-
 
 = 2.6.3 =
 * FIX: Issue with get_current_screen() function
